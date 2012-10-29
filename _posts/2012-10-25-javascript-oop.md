@@ -226,6 +226,48 @@ The prototype itself is the most important aspect of an object type, and the con
     detailedItem1.inspect();
     console.log(detailedItem1.hasPrototype(Item));
 
+## Modularity
+
+### require
+
+    var dependencies = {
+        "ObjectTools.js": ["FunctionalTools.js"],
+        "Dictionary.js": ["ObjectTools.js"],
+        "TestModule.js": ["FunctionalTools.js", "Dictionary.js"]
+    };
+
+    function require(file) {
+        if (dependencies[file]) {
+            var files = dependencies[file];
+            for (var i = 0; i < files.length; i++) {
+                require(files[i]);
+            }
+        }
+
+        if (!loadedFiles[file]) {
+            loadedFiles[file] = true;
+            load(file);
+        }
+    }
+
+### provide
+
+    function provide(values) {
+        forEachIn(values, function(name, value) {
+            window[name] = value;
+        });
+    }
+
+    (function() {
+        var names = ["A", "B", "C"];
+
+        provide({
+            getName: function(number) {
+                return names[number];
+            }
+        });
+    })();
+
 ## Resources
 * [JavaScript继承机制的设计思想](http://www.ruanyifeng.com/blog/2011/06/designing_ideas_of_inheritance_mechanism_in_javascript.html)
 * [JavaScript面向对象编程（二）：构造函数的继承](http://www.ruanyifeng.com/blog/2010/05/object-oriented_javascript_inheritance.html)
