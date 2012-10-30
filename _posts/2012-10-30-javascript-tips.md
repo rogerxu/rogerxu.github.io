@@ -1,6 +1,6 @@
 ---
 layout: post
-title: JavaScript Tips:
+title: JavaScript Tips
 ---
 
 # JavaScript Tips
@@ -26,3 +26,5 @@ Use function block to avoid global variables.
 
         setTimeout(loops, 100);
     })();
+
+
