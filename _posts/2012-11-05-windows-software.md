@@ -9,7 +9,11 @@ title: Windows Software
 
 * [Everything]()
 * [FreeCommander XE]()
-* [TreeSize]()
+* [WinDirStat]()
+* [CyoHash]()
+* [Disk Cleaner]()
+* [TeraCopy]()
+* [Listary]()
 
 
 ## Proxy
@@ -26,10 +30,21 @@ title: Windows Software
 * [The World]()
 
 
+## Programming
+
+* [Notepad++]()
+* [gVim]()
+* [Git Extensions]()
+* [Rapid Environment Editor]()
+
+
 ## System
 
 * [LastActivityView]()
 * [BlackTop]()
+* [Console2]()
+* [Process Hacker]()
+* [Rainmeter]()
 
 
 ## TTS
@@ -49,4 +64,9 @@ title: Windows Software
 ## Media
 
 * [TimeMachine]()
+* [foobar2000]()
+* [PotPlayer]()
+* [MediaInfo]()
+* [PicPick]()
+* [IrfanView]()
 
