@@ -23,6 +23,7 @@ title: Chrome Extensions
 * [Proxy SwitchySharp](https://chrome.google.com/webstore/detail/dpplabbmogkhghncfbfdeeokoefdjegm)
 * [Resolution Test](https://chrome.google.com/webstore/detail/idhfcdbheobinplaamokffboaccidbal)
 * [Session Buddy](https://chrome.google.com/webstore/detail/edacconmaakjimmfgnblocblbcdcpbko)
+* [Tampermonkey](https://chrome.google.com/webstore/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo)
 * [网页截图（由Google提供）](https://chrome.google.com/webstore/detail/cpngackimfmofbokmjmljamhdncknpmg)
 * [豆瓣FM 精美版](https://chrome.google.com/webstore/detail/ofgppnjcdndocgicmodblmfmbdibefbm)
 * [豆瓣看电影](https://chrome.google.com/webstore/detail/lhfmcbnidnkaalleepapkdnfblbiaacl)

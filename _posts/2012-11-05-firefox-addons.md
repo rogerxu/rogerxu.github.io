@@ -35,4 +35,7 @@ title: Firefox Add-ons
 
 ## Greasemonkey Scripts
 
-* [Google SSL Privacy Real Link](http://userscripts.org/scripts/show/145014)
+* [YouTube Video Download](http://userscripts.org/scripts/show/62634)
+* [Straight Google](http://userscripts.org/scripts/show/121261)
+* [OpenGG.Clean.Player](http://userscripts.org/scripts/show/120679)
+* [Only Show This User Posts Chinalist](http://userscripts.org/scripts/show/137995)
