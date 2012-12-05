@@ -11,7 +11,6 @@ title: Chrome Extensions
 * [Chrome Sniffer](https://chrome.google.com/webstore/detail/homgcnaoacgigpkkljjjekpignblkeae)
 * [ChromeAccess](https://chrome.google.com/webstore/detail/aeoigbhkilbllfomkmmilbfochhlgdmh)
 * [ChromeVox](https://chrome.google.com/webstore/detail/kgejglhpjiefppelpmljglcjbhoiplfn)
-* [doubanIMDb](https://chrome.google.com/webstore/detail/nfibbjnhkbjlgjaojglmmibdjicidini)
 * [Flag for Chrome](https://chrome.google.com/webstore/detail/dbpojpfdiliekbbiplijcphappgcgjfn)
 * [Gestures for Chrome(TM)汉化版](https://chrome.google.com/webstore/detail/jlgkpaicikihijadgifklkbpdajbkhjo)
 * [Google Dictionary (by Google)](https://chrome.google.com/webstore/detail/mgijmajocgfcbeboacabfgobmjgjcoja)

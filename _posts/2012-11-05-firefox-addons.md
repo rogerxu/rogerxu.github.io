@@ -35,7 +35,9 @@ title: Firefox Add-ons
 
 ## Greasemonkey Scripts
 
-* [YouTube Video Download](http://userscripts.org/scripts/show/62634)
-* [Straight Google](http://userscripts.org/scripts/show/121261)
-* [OpenGG.Clean.Player](http://userscripts.org/scripts/show/120679)
+* [doubanIMDb](http://userscripts.org/scripts/show/103552)
 * [Only Show This User Posts Chinalist](http://userscripts.org/scripts/show/137995)
+* [OpenGG.Clean.Player](http://userscripts.org/scripts/show/120679)
+* [Straight Google](http://userscripts.org/scripts/show/121261)
+* [YouTube Video Download](http://userscripts.org/scripts/show/62634)
+
