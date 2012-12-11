@@ -15,7 +15,7 @@ title: Chrome Extensions
 * [Gestures for Chrome(TM)汉化版](https://chrome.google.com/webstore/detail/jlgkpaicikihijadgifklkbpdajbkhjo)
 * [Google Dictionary (by Google)](https://chrome.google.com/webstore/detail/mgijmajocgfcbeboacabfgobmjgjcoja)
 * [Google 输入工具（由 Google 提供）](https://chrome.google.com/webstore/detail/mclkkofklkfljcocdinagocijmpgbhab)
-* [JSON Formatter](https://github.com/callum85/json-formatter)
+* [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa)
 * [LastPass](https://chrome.google.com/webstore/detail/hdokiejnpimakedhajhdlcegeplioahd)
 * [Orbvious Interest](http://shalom.craimer.org/projects/orbviousinterest/)
 * [Pocket](https://chrome.google.com/webstore/detail/niloccemoadcdkdjlinkgdfekeahmflj)
