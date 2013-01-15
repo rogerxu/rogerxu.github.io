@@ -19,6 +19,7 @@ title: Firefox Add-ons
 * [FireFTP](https://addons.mozilla.org/zh-CN/firefox/addon/fireftp/)
 * [FireGestures](https://addons.mozilla.org/zh-CN/firefox/addon/firegestures/)
 * [Fireinput](https://addons.mozilla.org/zh-CN/firefox/addon/fireinput/)
+* [Fire IE](https://addons.mozilla.org/zh-CN/firefox/addon/fire-ie/)
 * [Flagfox](https://addons.mozilla.org/zh-CN/firefox/addon/flagfox/)
 * [FoxLingo](https://addons.mozilla.org/zh-Cn/firefox/addon/foxlingo-translator-dictionary/)
 * [Greasemonkey](https://addons.mozilla.org/zh-CN/firefox/addon/greasemonkey/)
