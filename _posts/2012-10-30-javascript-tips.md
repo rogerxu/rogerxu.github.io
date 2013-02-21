@@ -134,3 +134,12 @@ InnerHTML is not standard, and it's a String. The DOM is not, and although inner
 _Q: Are objects passed by value or by reference? Does the type of object matter?_
 
 _Q: What does it mean to chain functions in jQuery?_
+
+_Q: How do JavaScript timers work? What is a drawback of JavaScript timers?_
+
+Timers allow you to execute code at a set time or repeatedly using an interval. This is accomplished with the `setTimeout`, `setInterval`, and `clearInterval` functions. The `setTimeout(function, delay)` function initiates a timer that calls a specific function after the delay; it returns an id value that can be used to access it later. The `setInterval(function, delay)` function is similar to the `setTimeout` function except that it executes repeatedly on the delay and only stops when cancelled. The `clearInterval(id)` function is used to stop a timer. Timers can be tricky to use since they operate within a single thread, thus events queue up waiting to execute.
+
+_Q: How do you organize your JavaScript code?_
+
+The key concept here is to get an idea of how the candidate maintains and designs code. Do they design code that is specific to an application with no possible reuse? Do they use class inheritance or the module pattern to build reusable code? These approaches allow multiple developers to work on a project without stepping on their coworkers' toes. In addition, testing modular code or classes is easier to approach than a jumbled mess of code thrown together (look around the Web, and you’ll find plenty of examples).
+
