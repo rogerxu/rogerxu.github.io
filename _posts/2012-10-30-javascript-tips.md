@@ -66,9 +66,9 @@ _Q: What is the concept of "functions as objects" and how does this affect varia
 _Q: What modern JavaScript frameworks and utilities excite you right now from an approach and code point of view, even if they're not yet stable enough for client work?_
 
 > I am more concerned with knowing that they keep up to date on the latest thinking around JavaScript.
-
+> 
 > I am also concerned about the flood of "copy-and-paste" JavaScript solutions.
-
+> 
 > jQuery and its plug-in system are so popular that many developers only know JavaScript in that context, and have trouble understanding how to create new functionality. While this is fine for many websites, which only need a dynamic menu or homepage carousel, as the emerging web becomes more "stateful" – (he points to USA Today's redesign as an example of pages that users navigate without loading a new page) – this knowledge becomes crucial to developing robust and maintainable applications.
 
 _Q: What is the different between `.call()` and `.apply()`?_
