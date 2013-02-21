@@ -41,4 +41,14 @@ Example:
     });
     console.log(result); // 10
 
+### jQuery.merge
+
+    var arr1 = [1, 2, 3];
+    jQuery.merge(arr1, [4, 5]);
+    console.log(arr1); // [1, 2, 3, 4, 5]
+
+### jQuery.makeArray
+
+    jQuery.makeArray("a"); // ["a"]
+    jQuery.makeArray(["a"]); // ["a"]
 
