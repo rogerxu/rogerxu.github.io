@@ -2,8 +2,9 @@
    License: none (public domain)
 */
 
-code {
+p code {
     font-family: "Monaco", "Lucida Console", monospace;
-    font-size: 100%;
+    font-size: 13px;
+    padding: 3px;
     background-color: #D6D6D6;
 }
