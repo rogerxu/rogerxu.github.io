@@ -33,6 +33,24 @@ Use function block to avoid global variables.
 
 ## Array
 
+### Empty array
+
+[Emptying an array](http://jsperf.com/emptying-arrays)
+
+    arr.length = 0;
+
+### Remove items in array
+
+    var arr = [1, 2, 3, 4, 5];
+    var selectedIndices = [0, 2, 4];
+
+    // walk arrays backwards to avoid skipping elements on delete
+    for (var j = selectedIndices.length - 1; j >= 0; j--) {
+        var selectedIndex = selectedIndices[j];
+        arr.splice(selectedIndex, 1);
+    }
+
+
 ### Array.reduce
 
 Apply a function against an accumulator and each value of the array (from left to right) as to reduce it to a single value.
