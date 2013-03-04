@@ -75,6 +75,17 @@ Example:
     jQuery.makeArray("a"); // ["a"]
     jQuery.makeArray(["a"]); // ["a"]
 
+## Object
+
+### Equality
+
+Underscore:
+
+    _.isEqual(object, other)
+
+[Object.identical.js](https://github.com/prettycode/Object.identical.js)
+
+
 ## Questions
 
 _Q: How do you implement an extend function that takes an object and extends it with new properties? Basically, duplicating a jQuery extend._
