@@ -49,6 +49,7 @@ title: Date Format
 * "Z": "timezoneRFC822"
 * "X": "timezoneISO8601"
 
+
     var pattern = {};
     pattern["timezoneGeneral"] = "yyyy-MM-dd'T'HH:mm:ss.SSSz";
     pattern["timezoneRFC822"] = "yyyy-MM-dd'T'HH:mm:ss.SSSZ";  // e.g. -0200 or +0200
