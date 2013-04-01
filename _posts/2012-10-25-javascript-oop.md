@@ -7,6 +7,89 @@ title: JavaScript Object-oriented Programming
 
 ## Concept
 
+### JavaScript Object Layout
+
+[JavaScript diagrams](http://www.mollypages.org/misc/index.mp)
+
+[JavaScript Object Layout](http://www.mollypages.org/misc/js.mp)
+
+![JavaScript Object Layout](http://www.mollypages.org/misc/jsobj.jpg)
+
+
+    // Constructor
+    function Foo(name) {
+        this.name = name;
+    }
+
+#### `__proto__`
+
+    var f1 = new Foo("f1");
+    f1.__proto__ -> Foo.prototype
+    Foo.prototype.__proto__ -> Object.prototype
+    Object.prototype.__proto__ -> null
+
+    Foo.prototype.intro = function() {
+        alert(this.name);
+    };
+    f1.intro();
+
+    Foo.greet = function() {
+        alert("Hello!");
+    };
+    Foo.greet();
+
+### Scope
+
+    function foo() {
+        var x = 1;
+
+        if (true) {
+            var x = 2;
+        }
+
+        alert(x); // 2
+    }
+
+### Hoisting
+
+    function foo() {
+        var x = 1;
+        alert(y); // undefined
+
+        if (true) {
+            var y = 2;
+        }
+    }
+
+JavaScript interprets the function as following:
+
+    function foo() {
+        var x;
+        var y;
+
+        x = 1;
+        alert(y);
+
+        if (true) {
+            y = 2;
+        }
+    }
+
+### Activation Object / Variable Object
+
+    funciton Outer() {
+        var a = 0;
+        var Inner = function() {
+            a++;
+            alert("foo");
+        };
+
+        return Inner;
+    }
+
+    var inner = Outer();
+    inner();
+
 ### Constructor
 
 Create a rabbit with new keyword
