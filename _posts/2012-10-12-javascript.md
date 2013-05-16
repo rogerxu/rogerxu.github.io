@@ -8,7 +8,7 @@ title: JavaScript
 ### Code Standards
 
  * [Principles of Writing Consistent, Idiomatic JavaScript](https://github.com/rwldrn/idiomatic.js)
- * [Front-end Code Standards & Best Practices](http://isobar-idev.github.com/code-standards/)
+ * [Front-end Code Standards & Best Practices](http://isobar-idev.github.io/code-standards/)
 
 ### Documentation
  * [The Best Way to Learn JavaScript](http://net.tutsplus.com/tutorials/javascript-ajax/the-best-way-to-learn-javascript/)
