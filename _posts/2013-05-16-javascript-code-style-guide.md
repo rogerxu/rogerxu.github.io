@@ -184,26 +184,26 @@ Relying on implicit insertion can cause subtle, hard to debug problems. Don't do
 Example 1:
 
     MyClass.prototype.myMethod = function() {
-      return 42;
+        return 42;
     }  // No semicolon here.
 
     (function() {
-      // Some initialization code wrapped in a function to create a scope for locals.
+        // Some initialization code wrapped in a function to create a scope for locals.
     })();
 
 * JavaScript error - first the function returning 42 is called with the second function as a parameter, then the number 42 is "called" resulting in an error.
 
     MyClass.prototype.myMethod = function() {
-      return 42;
+        return 42;
     }(function() {
-      // Some initialization code wrapped in a function to create a scope for locals.
+        // Some initialization code wrapped in a function to create a scope for locals.
     })();
 
 Example 2:
 
     var x = {
-      i: 1,
-      j: 2
+        i: 1,
+        j: 2
     }  // No semicolon here.
 
     // Trying to do one thing on Internet Explorer and another on Firefox.
@@ -213,8 +213,8 @@ Example 2:
 * You will most likely get a 'no such property in undefined' error at runtime as it tries to call `x[ffVersion][isIE]()`.
 
     var x = {
-      i: 1,
-      j: 2
+        i: 1,
+        j: 2
     }[normalVersion, ffVersion][isIE]();
 
 Example 3:
