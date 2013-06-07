@@ -20,6 +20,7 @@ title: Chrome Extensions
 * [Flag for Chrome](https://chrome.google.com/webstore/detail/dbpojpfdiliekbbiplijcphappgcgjfn)
 * [Google Dictionary (by Google)](https://chrome.google.com/webstore/detail/mgijmajocgfcbeboacabfgobmjgjcoja)
 * [Google 输入工具（由 Google 提供）](https://chrome.google.com/webstore/detail/mclkkofklkfljcocdinagocijmpgbhab)
+* [Hover Zoom](https://chrome.google.com/webstore/detail/hover-zoom/nonjdcjchghhkdoolnlbekcfllmednbl)
 * [IE Tab Multi (Enhance)](https://chrome.google.com/webstore/detail/ie-tab-multi-enhance/fnfnbeppfinmnjnjhedifcfllpcfgeea)
 * [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa)
 * [JSON Prettifier](https://chrome.google.com/webstore/detail/json-prettifier/kccpfgilgmgbipamhohknpokhibinhhj)
@@ -37,6 +38,8 @@ title: Chrome Extensions
 * [网页截图（由Google提供）](https://chrome.google.com/webstore/detail/cpngackimfmofbokmjmljamhdncknpmg)
 * [豆瓣FM 精美版](https://chrome.google.com/webstore/detail/ofgppnjcdndocgicmodblmfmbdibefbm)
 * [豆瓣看电影](https://chrome.google.com/webstore/detail/lhfmcbnidnkaalleepapkdnfblbiaacl)
+* [惠惠购物助手](https://chrome.google.com/webstore/detail/%E6%83%A0%E6%83%A0%E8%B4%AD%E7%89%A9%E5%8A%A9%E6%89%8B/ohjkicjidmohhfcjjlahfppkdblibkkb)
+* [图桌: 网页截图](https://chrome.google.com/webstore/detail/quick-markup-screen-captu/clcbnchcgjcjphmnpndoelbdhakdlfkk)
 * [微博急简 WC](https://chrome.google.com/webstore/detail/%E5%BE%AE%E5%8D%9A%E6%80%A5%E7%AE%80-wc/ecconepcpkkhleipnogfjfkdlhnliagk)
 
 
