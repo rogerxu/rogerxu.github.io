@@ -39,6 +39,7 @@ title: Chrome Extensions
 * [豆瓣FM 精美版](https://chrome.google.com/webstore/detail/ofgppnjcdndocgicmodblmfmbdibefbm)
 * [豆瓣看电影](https://chrome.google.com/webstore/detail/lhfmcbnidnkaalleepapkdnfblbiaacl)
 * [惠惠购物助手](https://chrome.google.com/webstore/detail/%E6%83%A0%E6%83%A0%E8%B4%AD%E7%89%A9%E5%8A%A9%E6%89%8B/ohjkicjidmohhfcjjlahfppkdblibkkb)
+* [搜狗云输入法扩展](https://chrome.google.com/webstore/detail/%E6%90%9C%E7%8B%97%E4%BA%91%E8%BE%93%E5%85%A5%E6%B3%95%E6%89%A9%E5%B1%95/fkkionaalfbaoepkiilaldkijhmceghh)
 * [图桌: 网页截图](https://chrome.google.com/webstore/detail/quick-markup-screen-captu/clcbnchcgjcjphmnpndoelbdhakdlfkk)
 * [微博急简 WC](https://chrome.google.com/webstore/detail/%E5%BE%AE%E5%8D%9A%E6%80%A5%E7%AE%80-wc/ecconepcpkkhleipnogfjfkdlhnliagk)
 
