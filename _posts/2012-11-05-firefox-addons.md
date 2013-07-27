@@ -35,13 +35,4 @@ title: Firefox Add-ons
 * [TweakTube](https://addons.mozilla.org/zh-CN/firefox/addon/tweaktube-youtube-enhancer-vid/)
 * [Ushare](https://addons.mozilla.org/zh-CN/firefox/addon/ushare/)
 * [Video DownloadHelper](https://addons.mozilla.org/zh-CN/firefox/addon/video-downloadhelper/)
-* [????](https://addons.mozilla.org/zh-CN/firefox/addon/weibo_wc/)
-
-
-## Greasemonkey Scripts
-
-* [doubanIMDb](http://userscripts.org/scripts/show/103552)
-* [Only Show This User Posts Chinalist](http://userscripts.org/scripts/show/137995)
-* [OpenGG.Clean.Player(Bae](http://userscripts.org/scripts/show/162286)
-* [Straight Google](http://userscripts.org/scripts/show/121261)
-* [YouTube Video Download](http://userscripts.org/scripts/show/62634)
+* [微博急简](https://addons.mozilla.org/zh-CN/firefox/addon/weibo_wc/)
