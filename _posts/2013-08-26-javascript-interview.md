@@ -11,6 +11,23 @@ title: JavaScript Interview
 
 ## Questions
 
+### Types
+
+    Object.prototype.toString.call([])          // "[object Array]"
+    Object.prototype.toString.call({})          // "[object Object]"
+    Object.prototype.toString.call(2)           // "[object Number]"
+    Object.prototype.toString.call(null)        // "[object Null]"
+    Object.prototype.toString.call(undefined)   // "[object Undefined]"
+
+### Array
+
+    [1, 2, 3]; // Result: [1, 2, 3]
+    new Array(1, 2, 3); // Result: [1, 2, 3]
+
+    [3]; // Result: [3]
+    new Array(3); // Result: []
+    new Array('3') // Result: ['3']
+    new Array(3, 4, 5); // Result: [3, 4, 5]
 
 ### Deleting Properties
 
@@ -100,7 +117,56 @@ JavaScript error - the function returning 42 is called with the second function 
         console.log(result);
     })();
 
+### Hoisting
+
+Question: What happens in the following code?
+
+    bar();
+    var bar = function() {};
+    var someValue = 42;
+
+    test();
+    function test(data) {
+        if (false) {
+            goo = 1;
+
+        } else {
+            var goo = 2;
+        }
+        for(var i = 0; i < 100; i++) {
+            var e = data[i];
+        }
+    }
+
+Answer:
+
+    // var statements got moved here
+    var bar, someValue; // default to 'undefined'
+
+    // the function declaration got moved up too
+    function test(data) {
+        var goo, i, e; // missing block scope moves these here
+        if (false) {
+            goo = 1;
+
+        } else {
+            goo = 2;
+        }
+        for (i = 0; i < 100; i++) {
+            e = data[i];
+        }
+    }
+
+    bar(); // fails with a TypeError since bar is still 'undefined'
+    someValue = 42; // assignments are not affected by hoisting
+    bar = function() {};
+
+    test();
+
+
 ### Inheritance
+
+#### prototype
 
     function Foo() {
         this.value = 42;
@@ -133,6 +199,31 @@ JavaScript error - the function returning 42 is called with the second function 
 
 It is important to note that new Bar() does not create a new Foo instance, but reuses the one assigned to its prototype; thus, all Bar instances will share the same value property.
 
+#### Factories
+
+    function Foo() {
+        var obj = {};
+        obj.value = "blub";
+
+        var private = 2;
+
+        obj.someMethod = function(value) {
+            this.value = value;
+        };
+
+        obj.getPrivate = function() {
+            return private;
+        };
+
+        return obj;
+    }
+
+Downsides:
+
+1. It uses more memory since the created objects do not share the methods on a prototype.
+2. In order to inherit, the factory needs to copy all the methods from another object or put that object on the prototype of the new object.
+
+
 ### Date, Time Zone
 
 Question: Please implement the `formatDateTimeZone` function.
@@ -159,17 +250,18 @@ Constructor for `Date` class:
 
 Methods in `Date` instance:
 
-    getDate(),          setDate(),          getUTCDate(),           setUTCDate()
-    getDay(),                               getUTCDay()
-    getFullYear(),      setFullYear(),      getUTCFullYear(),       setUTCFullYear()
-    getHours(),         setHours(),         getUTCHours(),          setUTCHours()
-    getMilliseconds(),  setMilliseconds(),  getUTCMilliseconds(),   setUTCMilliseconds()
-    getMinutes(),       setMinutes(),       getUTCMinutes(),        setUTCMinutes()
-    getMonth(),         setMonth(),         getUTCMonth(),          setUTCMonth()
-    getSeconds(),       setSeconds(),       getUTCSeconds(),        setUTCSeconds()
-    getTime(),          setTime()
-    getTimezoneOffset()
-    getYear(),          setYear()
+    getDate(),          setDate(),          getUTCDate(),           setUTCDate(),
+    getDay(),                               getUTCDay(),
+    getFullYear(),      setFullYear(),      getUTCFullYear(),       setUTCFullYear(),
+    getHours(),         setHours(),         getUTCHours(),          setUTCHours(),
+    getMilliseconds(),  setMilliseconds(),  getUTCMilliseconds(),   setUTCMilliseconds(),
+    getMinutes(),       setMinutes(),       getUTCMinutes(),        setUTCMinutes(),
+    getMonth(),         setMonth(),         getUTCMonth(),          setUTCMonth(),
+    getSeconds(),       setSeconds(),       getUTCSeconds(),        setUTCSeconds(),
+    getTime(),          setTime(),
+    getTimezoneOffset(),
+    getYear(),          setYear(),
+    toString(),         toUTCString(),      toLocaleString()
 
 
 Answer:
@@ -225,7 +317,7 @@ ISO8601 Date Format
 
     function formatISO8601(year, month, date, hours, minutes, seconds, milliseconds, timezoneOffsetInHours) {
         var dateSeg = year + "-" + month + "-" + date; // yyyy-MM-dd
-        var timeSeg = hours + ":" + minutes + ":" + seconds + "." + milliseconds; // Thh:mm:ss.SSS
+        var timeSeg = hours + ":" + minutes + ":" + seconds + "." + milliseconds; // hh:mm:ss.SSS
 
         var timezoneSeg = "";
         if (timezoneOffsetInHours === 0) {
