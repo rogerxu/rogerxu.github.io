@@ -229,18 +229,21 @@ Downsides:
 Question: Please implement the `formatDateTimeZone` function.
 
     /**
-     * Formats the Date object in the specified time zone.
+     * Formats the Date object in the ISO8601 format with the specified time zone.
      *
      * @param {Date} date - The Date object to be formattted.
-     * @param {Integer} timezone - Time zone in hours. 9 means +9:00, -9 means -9:00.
+     * @param {Integer} timezone - Time zone offset in hours. 9 means +9:00, -9 means -9:00.
      * @return The date time string with the specified time zone in the ISO8601 format like "2013-08-18T09:12:00.789+09:00".
      */
     function formatDateTimeZone(date, timezone) {
         // Implement the function here
     }
 
-    var date = new Date();
-    var dateStr = formatDateTimeZone(date, 9);
+It is expected to work as following:
+
+    var date = new Date(); // "2013-08-28T01:23:45.678+08:00"
+    var dateStr = formatISO8601TimeZone(date, -7);
+    console.log(dateStr); // "2013-08-27T10:23:45.678-07:00"
 
 Reference:
 
@@ -266,7 +269,7 @@ Methods in `Date` instance:
 
 Answer:
 
-Solution 1: Use local time
+Solution 1: local time => UTC time => destination time
 
     function formatDateTimeZone(date, timezone) {
         var localTime = date.getTime();
@@ -286,12 +289,12 @@ Solution 1: Use local time
         var _seconds = destDate.getSeconds();
         var _milliseconds = destDate.getMilliseconds();
 
-        var str = formatISO8601(_year, _month + 1, _date, _hours, _minutes, _seconds, _milliseconds, timezone);
+        var str = buildISO8601String(_year, _month + 1, _date, _hours, _minutes, _seconds, _milliseconds, timezone);
 
         return str;
     }
 
-Solution 2: Use UTC time
+Solution 2: local time => destination UTC time
 
     function formatDateTimeZone(date, timezone) {
         var localTime = date.getTime();
@@ -308,14 +311,14 @@ Solution 2: Use UTC time
         var _seconds = destUTCDate.getUTCSeconds();
         var _milliseconds = destUTCDate.getUTCMilliseconds();
 
-        var str = formatISO8601(_year, _month + 1, _date, _hours, _minutes, _seconds, _milliseconds, timezone);
+        var str = buildISO8601String(_year, _month + 1, _date, _hours, _minutes, _seconds, _milliseconds, timezone);
 
         return str;
     }
 
-ISO8601 Date Format
+ISO8601 Date Format Builder:
 
-    function formatISO8601(year, month, date, hours, minutes, seconds, milliseconds, timezoneOffsetInHours) {
+    function buildISO8601String(year, month, date, hours, minutes, seconds, milliseconds, timezoneOffsetInHours) {
         var dateSeg = year + "-" + month + "-" + date; // yyyy-MM-dd
         var timeSeg = hours + ":" + minutes + ":" + seconds + "." + milliseconds; // hh:mm:ss.SSS
 

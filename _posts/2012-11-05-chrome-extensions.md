@@ -19,7 +19,6 @@ title: Chrome Extensions
 * [Evernote Web Clipper](https://chrome.google.com/webstore/detail/evernote-web-clipper/pioclpoplcdbaefihamjohnefbikjilc)
 * [Feedly](https://chrome.google.com/webstore/detail/feedly-your-news-rss-goog/hipbfijinpcgfogaopmgehiegacbhmob)
 * [Flag for Chrome](https://chrome.google.com/webstore/detail/dbpojpfdiliekbbiplijcphappgcgjfn)
-* [Google Dictionary (by Google)](https://chrome.google.com/webstore/detail/mgijmajocgfcbeboacabfgobmjgjcoja)
 * [Google 输入工具（由 Google 提供）](https://chrome.google.com/webstore/detail/mclkkofklkfljcocdinagocijmpgbhab)
 * [Hover Zoom](https://chrome.google.com/webstore/detail/hover-zoom/nonjdcjchghhkdoolnlbekcfllmednbl)
 * [IE Tab Multi (Enhance)](https://chrome.google.com/webstore/detail/ie-tab-multi-enhance/fnfnbeppfinmnjnjhedifcfllpcfgeea)
