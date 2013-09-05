@@ -3,8 +3,12 @@
 */
 
 code {
-    font-family: "Monaco", "Lucida Console", monospace;
-    font-size: 13px;
+    font-family: "Monaco", "Consolas", "Lucida Console", monospace;
+    font-size: 1em;
     padding: 3px;
     background-color: #D6D6D6;
+}
+
+pre code {
+    background-color: transparent;
 }
