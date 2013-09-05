@@ -2,13 +2,9 @@
    License: none (public domain)
 */
 
-code {
+p code {
     font-family: "Monaco", "Lucida Console", monospace;
     font-size: 13px;
     padding: 3px;
     background-color: #D6D6D6;
-}
-
-pre code {
-    background-color: transparent;
 }
