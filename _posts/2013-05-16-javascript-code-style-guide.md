@@ -191,7 +191,7 @@ Example 1:
         // Some initialization code wrapped in a function to create a scope for locals.
     })();
 
-* JavaScript error - first the function returning 42 is called with the second function as a parameter, then the number 42 is "called" resulting in an error.
+Result: JavaScript error - first the function returning 42 is called with the second function as a parameter, then the number 42 is "called" resulting in an error.
 
     MyClass.prototype.myMethod = function() {
         return 42;
@@ -210,23 +210,25 @@ Example 2:
     // I know you'd never write code like this, but throw me a bone.
     [normalVersion, ffVersion][isIE]();
 
-* You will most likely get a 'no such property in undefined' error at runtime as it tries to call `x[ffVersion][isIE]()`.
+Result: You will most likely get a 'no such property in undefined' error at runtime as it tries to call `x[ffVersion][isIE]()`.
 
     var x = {
         i: 1,
         j: 2
     }[normalVersion, ffVersion][isIE]();
 
+
 Example 3:
 
-    var THINGS_TO_EAT = [apples, oysters, sprayOnCheese]  // No semicolon here.
+    var THINGS_TO_EAT = [apples, oysters, sprayOnCheese] // No semicolon here.
 
     // conditional execution a la bash
     -1 == resultOfOperation() || die();
 
-* `die` is called unless `resultOfOperation()` is `NaN` and `THINGS_TO_EAT` gets assigned the result of `die()`.
+Result: `die` is called unless `resultOfOperation()` is `NaN` and `THINGS_TO_EAT` gets assigned the result of `die()`.
 
     var THINGS_TO_EAT = [apples, oysters, sprayOnCheese]-1 == resultOfOperation() || die();
+
 
 ### Function Declarations Within Blocks
 
