@@ -2,6 +2,10 @@
    License: none (public domain)
 */
 
+h1, h2, h3 {
+    font-weight: bold;
+}
+
 code {
     margin: 0 2px;
     padding: 3px;
