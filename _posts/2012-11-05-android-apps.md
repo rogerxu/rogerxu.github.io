@@ -34,10 +34,10 @@ title: Android Apps
 * [WiFi Master](https://play.google.com/store/apps/details?id=com.halo.wifikey.wifilocating)
 * [World Watch]()
 * [ZArchiver](https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver)
-* [布卡漫画]
-* [惠惠购物锦囊]
-* [听听中心]
-* [讯飞语音]
+* [布卡漫画](http://www.ibuka.cn/)
+* [惠惠购物锦囊](http://www.huihui.cn/apps/guide/m)
+* [听听中心](http://tingting.sdo.com/center/)
+* [讯飞语音合成](http://www.coolapk.com/apk/com.iflytek.tts)
 
 ## Games
 
