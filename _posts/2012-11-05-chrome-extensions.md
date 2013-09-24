@@ -34,6 +34,8 @@ title: Chrome Extensions
 * [Resolution Test](https://chrome.google.com/webstore/detail/idhfcdbheobinplaamokffboaccidbal)
 * [Session Buddy](https://chrome.google.com/webstore/detail/edacconmaakjimmfgnblocblbcdcpbko)
 * [Tampermonkey](https://chrome.google.com/webstore/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo)
+* [Vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb)
+* [ZenMate](https://chrome.google.com/webstore/detail/zenmate-for-google-chrome/fdcgdnkidjaadafnichfpabhfomcebme)
 * [三七海淘·Amazon](https://chrome.google.com/webstore/detail/%E4%B8%89%E4%B8%83%E6%B5%B7%E6%B7%98%C2%B7amazon/nocbbenannjflblimeokfgkamoebelmn)
 * [网页截图（由Google提供）](https://chrome.google.com/webstore/detail/cpngackimfmofbokmjmljamhdncknpmg)
 * [豆瓣FM 精美版](https://chrome.google.com/webstore/detail/ofgppnjcdndocgicmodblmfmbdibefbm)
@@ -48,6 +50,7 @@ title: Chrome Extensions
 ## Web Apps
 
 * [365Scores](https://chrome.google.com/webstore/detail/gocaejggjgdmkhmbinicknpbhagkblop)
+* [Any.DO](https://chrome.google.com/webstore/detail/anydo/ocgddccilgpeepgglnlpchkpgamkgmld)
 * [Balsamiq Mockups](https://chrome.google.com/webstore/detail/balsamiq-mockups/pplbmgaodhjmbklkgkgmlghaekcfhhkk)
 * [Indite](https://chrome.google.com/webstore/detail/acgncfpammkhhkapnoilecjoalhnolbl)
 * [Google Keep](https://chrome.google.com/webstore/detail/google-keep/hmjkmjkepdijhoojdojkdfohbdgmmhki)
