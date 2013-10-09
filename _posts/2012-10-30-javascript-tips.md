@@ -43,6 +43,24 @@ JavaScript is a language that almost every developer can use to accomplish littl
 
 ### The `typeof` Operator
 
+The `typeof` operator (together with `instanceof`) is probably the biggest design flaw of JavaScript, as it is almost *completely broken*.
+
+Although `instanceof` still has limited uses, `typeof` really has only one practical use case, which does *not* happen to be checking the type of an object.
+
+#### The Class of an Object
+
+The specification gives exactly one way of accessing the `[[Class]]` value, with the use of `Object.prototype.toString`.
+
+    function is(type, obj) {
+        var clas = Object.prototype.toString.call(obj).slice(8, -1);
+        return obj !== undefined && obj !== null && clas === type;
+    }
+
+    is('String', 'test'); // true
+    is('String', new String('test')); // true
+
+In the above example, `Object.prototype.toString` gets called with the value of this being set to the object whose `[[Class]]` value should be retrieved.
+
 ### The `instanceof` Operator
 
 ### Type Casting
