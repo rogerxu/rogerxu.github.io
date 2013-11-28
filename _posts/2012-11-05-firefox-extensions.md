@@ -1,11 +1,9 @@
 ---
 layout: post
-title: Firefox Add-ons
+title: Firefox Extensions
 ---
 
-# Firefox Add-ons
-
-## Add-ons
+## Extensions
 
 * [Adblock Plus](https://addons.mozilla.org/zh-CN/firefox/addon/adblock-plus/)
 * [Add to Search Bar](https://addons.mozilla.org/zh-CN/firefox/addon/add-to-search-bar/)
@@ -13,11 +11,11 @@ title: Firefox Add-ons
 * [AutoProxy](https://addons.mozilla.org/zh-CN/firefox/addon/autoproxy/)
 * [Awesome Screenshot Plus](https://addons.mozilla.org/zh-CN/firefox/addon/awesome-screenshot-capture-/)
 * [ChmFox](https://addons.mozilla.org/zh-CN/firefox/addon/chmfox/)
-* [Clearly](https://addons.mozilla.org/zh-CN/firefox/addon/clearly/)
 * [Context Search](https://addons.mozilla.org/zh-CN/firefox/addon/context-search/)
 * [Download Statusbar](https://addons.mozilla.org/zh-CN/firefox/addon/download-statusbar/)
 * [DownThemAll!](https://addons.mozilla.org/zh-CN/firefox/addon/downthemall/)
-* [EPUBReader] (https://addons.mozilla.org/zh-CN/firefox/addon/epubreader/)
+* [EPUBReader](https://addons.mozilla.org/zh-CN/firefox/addon/epubreader/)
+* [Evernote Web Clipper](https://addons.mozilla.org/zh-CN/firefox/addon/evernote-web-clipper/)
 * [Firebug](https://addons.mozilla.org/zh-CN/firefox/addon/firebug/)
 * [FireFTP](https://addons.mozilla.org/zh-CN/firefox/addon/fireftp/)
 * [FireGestures](https://addons.mozilla.org/zh-CN/firefox/addon/firegestures/)

@@ -3,8 +3,6 @@ layout: post
 title: Chrome Extensions
 ---
 
-# Chrome Extensions
-
 ## Extensions
 
 * [A+ Dictionary](https://chrome.google.com/webstore/detail/a%2B-dictionary/nbdnlnijofenjgknplpelkpmhikpangb)
