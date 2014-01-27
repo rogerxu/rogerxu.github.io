@@ -52,9 +52,11 @@ Answer:
     var index = array.indexOf("foo");
     array.splice(index, 1); // remove 3
 
-Question: How to remove every `bar` element in `array`?
+Question: How to remove all `bar` elements in `array`?
 
     var array = ["foo", "bar", "bar", "foo", "bar"];
+    removeInArray(array, "bar");
+    console.log(array); // ["foo", "foo"]
 
 Answer:
 
@@ -83,6 +85,11 @@ Question: How to pass `arguments`?
     function bar(a, b, c) {
         // do stuff here
     }
+
+Question: Please write a `sum()` function that accepts any number of arguments, and returns their sum.
+
+Then, ask them to use that function (without modification) to sum all the values in an array. They should write a function that looks like this:
+
 
 ### Automatic Semicolon Insertion
 
@@ -118,6 +125,42 @@ JavaScript error - the function returning 42 is called with the second function 
     })();
 
 ### Hoisting
+
+Question: What is the result of the following code?
+
+```
+(function() {
+    foo = 5;
+    var foo = 10;
+    foo = 15;
+})();
+
+console.log(foo);
+```
+
+Answer:
+
+    error: foo is not defined
+
+Question: 
+
+```
+var foo = {
+    bar: function() {
+        return this.baz;
+    },
+    baz: 1
+};
+
+(function() {
+    return typeof arguments[0]();
+})(foo.bar);
+```
+
+Answer:
+
+    "undefined"
+
 
 Question: What happens in the following code?
 
