@@ -11,10 +11,79 @@ AngularJS is a structural framework for dynamic web apps.
 
 ## Installation
 
-Maven
+### Maven
 
     <dependency>
+        <groupId>org.webjars</groupId>
+        <artifactId>angularjs</artifactId>
+        <version>1.2.10</version>
     </dependency>
+
+### Yeoman
+
+    $ npm install -g generator-angular
+    $ yo angular
+
+### Bower
+
+    $ bower install angular --save
+
+
+## Advantages
+
+### 1. MVC done right
+
+Most frameworks implement MVC by asking you to split your app into MVC components, then require you to write code to string them up together again. That's a lot of work.
+
+### 2. A declarative user interface
+
+Angular uses HTML to define the app's user interface.
+
+### 3. Data models are POJO
+
+Data models in Angular are plain old JavaScript objects (POJO) and don't require extraneous getter and setter functions.
+
+Traditional data models are gatekeepers of data and are responsible for data persistence and server syncing. Those data models behave like smart data providers.
+
+Angular's data models behave more like a cork board. A cork board is nothing more than a temporary storage area for people to put and retrieve data. Angular quietly watches for changes to these properties and updates the view automatically.
+
+### 4. Behavior with directives
+
+As a rule of thumb, your controller should not manipulate the DOM directly. All DOM manipulations should be performed by directives.
+
+### 5. Flexibility with filters
+
+Filters are designed to be standalone functions that are separate from your app, and are only concerned with data transformations.
+
+### 6. Write less code
+
+* The view is defined using HTML, which is more concise.
+* Data models are simpler to write without getters/setters.
+* Data-binding
+* Directives are separate from app code.
+* Filters allow you to manipulate data on the view level without changing the controllers.
+
+### 7. DOM manipulations where they belong
+
+With Angular, DOM manipulation code should be inside directives and not in the view.
+
+### 8. Service providers where they belong
+
+Controllers in Angular are simple functions that have one job only, which is to manipulate the scope. Unlike other frameworks, controllers are not objects and don't inherit from anything.
+
+### 9. Context aware communication
+
+A PubSub system is a pretty common tool that allows for decoupled communication.
+
+The PubSub system in Angular `broadcast()` will send a message to all children controllers, while `emit()` will send a message to all ancestors.
+
+The scopes inherit the properties of their parent scopes.
+
+### 10. Unit testing ready
+
+Angular's unit tests are able to usurp DI to perform unit testing by injecting mock data into your controller and measuring the output and behavior.
+
+Angular already has a mock HTTP provider to inject fake server responses into controllers.
 
 
 ## Controllers
