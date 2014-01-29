@@ -94,6 +94,33 @@ Angular already has a mock HTTP provider to inject fake server responses into co
 
 ## Services
 
+## Data Binding
+
+* `ngBind`
+
+The `ngBind` attribute tells Angular to replace the text content of the specified HTML element with the value of a given expression.
+
+Typically, you don't use `ngBind` directly, but instead you use the double curly markup like `{{expression}}` which is similar but less verbose.
+
+It is preferable to use `ngBind` instead of `{{expression}}` when a template is momentarily displayed by the browser in its raw state before Angular compiles it.
+
+    <p ng-bind="name"></p>
+
+* `ngCloak`
+
+The `ngClock` directive is used to prevent the Angular html template from being briefly displayed by the browser in its raw form while your application is loading. Use this directive to avoid the undesirable flicker effect caused by the html template display. Flash of unstyled content (FOUC).
+
+For the best result, the `angular.js` script must be loaded in the head section of the html document.
+
+    <p ng-cloak>{{name}}</p>
+
+Add the following css rule in the external stylesheet of the application.
+
+    [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+        display: none !important;
+    }
+
+
 ## Dependency Injection
 
 Dependency Injection (DI) is a software design pattern that deals with how code gets hold of its dependencies.
