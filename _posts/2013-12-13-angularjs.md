@@ -100,9 +100,9 @@ Angular already has a mock HTTP provider to inject fake server responses into co
 
 The `ngBind` attribute tells Angular to replace the text content of the specified HTML element with the value of a given expression.
 
-Typically, you don't use `ngBind` directly, but instead you use the double curly markup like `{{expression}}` which is similar but less verbose.
+Typically, you don't use `ngBind` directly, but instead you use the double curly markup like \{\{expression\}\} which is similar but less verbose.
 
-It is preferable to use `ngBind` instead of `{{expression}}` when a template is momentarily displayed by the browser in its raw state before Angular compiles it.
+It is preferable to use `ngBind` instead of \{\{expression\}\} when a template is momentarily displayed by the browser in its raw state before Angular compiles it.
 
     <p ng-bind="name"></p>
 
@@ -216,3 +216,24 @@ Since the config function runs in the configuration phase when no services are a
 ## ngResource
 
 ## Routing
+
+Application routes in Angular are declared via the `$routeProvider`, which is the provider of the `$route` service. Using this feature we can implement deep linking, which lets us utilize the bowser's history (back and forward navigation) and bookmarks.
+
+
+    // Configuring $routeProvider
+    app.config(['$routeProvider', function($routeProvider) {
+        $routeProvider
+            .when('/', {
+                templateUrl: 'views/main.html',
+                controller: 'MainCtrl'
+            })
+            .when('/showOrders', {
+                templateUrl: 'views/show_orders.html',
+                controller: 'ShowOrdersCtrl'
+            })
+            .otherwise({
+                redirectTo: '/'
+            })
+    }]);
+
+    <div ng-view></div>
