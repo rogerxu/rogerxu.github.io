@@ -227,13 +227,41 @@ Application routes in Angular are declared via the `$routeProvider`, which is th
                 templateUrl: 'views/main.html',
                 controller: 'MainCtrl'
             })
-            .when('/showOrders', {
+            .when('/orders', {
                 templateUrl: 'views/show_orders.html',
                 controller: 'ShowOrdersCtrl'
+            })
+            .when('/orders/:orderId', {
+                templateUrl: 'views/show_order.html',
+                controller: 'ShowOrderCtrl'
             })
             .otherwise({
                 redirectTo: '/'
             })
     }]);
 
+We need to define `ng-app` directive once. This becomes the placeholder for views. Each view referred by the route is loaded in this section of document.
+
+You can define `ng-view` in main html file in the below way.
+
     <div ng-view></div>
+
+
+### Pass Parameters in Route URLs
+
+In Angular we can define parameters using `orderId` in URL.
+
+    $routeProvider
+        .when('/orders/:orderId', {
+            templateUrl: 'views/show_order.html',
+            controller: 'ShowOrderCtrl'
+        })
+
+We can read the parameter in ShowOrderCtrl by using `$routeParams.orderId`.
+
+    $scope.orderId = $routeParams.orderId;
+
+We can define HTML link as following:
+
+    <a href="#/orders/1234">Show Details</a>
+
