@@ -128,34 +128,30 @@ JavaScript error - the function returning 42 is called with the second function 
 
 Question: What is the result of the following code?
 
-```
-(function() {
-    foo = 5;
-    var foo = 10;
-    foo = 15;
-})();
+    (function() {
+        foo = 5;
+        var foo = 10;
+        foo = 15;
+    })();
 
-console.log(foo);
-```
+    console.log(foo);
 
 Answer:
 
     error: foo is not defined
 
-Question: 
+Question:
 
-```
-var foo = {
-    bar: function() {
-        return this.baz;
-    },
-    baz: 1
-};
+    var foo = {
+        bar: function() {
+            return this.baz;
+        },
+        baz: 1
+    };
 
-(function() {
-    return typeof arguments[0]();
-})(foo.bar);
-```
+    (function() {
+        return typeof arguments[0]();
+    })(foo.bar);
 
 Answer:
 
