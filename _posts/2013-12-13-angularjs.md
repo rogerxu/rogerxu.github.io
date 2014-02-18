@@ -16,7 +16,7 @@ AngularJS is a structural framework for dynamic web apps.
     <dependency>
         <groupId>org.webjars</groupId>
         <artifactId>angularjs</artifactId>
-        <version>1.2.10</version>
+        <version>1.2.13</version>
     </dependency>
 
 ### Yeoman
@@ -265,3 +265,40 @@ We can define HTML link as following:
 
     <a href="#/orders/1234">Show Details</a>
 
+## Mock
+
+The `ngMockE2E` is an angular module which contains mocks suitable for end-to-end testing.
+
+    <script src="angular-mocks.js"></script>
+
+### `$httpBackend`
+
+Fake HTTP backend implementation suitable for end-to-end testing or backend-less development of applications that use the `$http` service.
+
+To setup the application to run with this http backend, you have to create a module that depends on the `ngMockE2E` and defines the fake backend:
+
+    var appDev = angular.module('appDev', ['app', ngMockE2E']);
+    appDev.run(function($httpBackend) {
+        var items = [{id: '1'}, {id: '2'}];
+
+        $httpBackend.whenGET('/items').respond(items);
+
+        // adds a new phone to the items array
+        $httpBackend.whenPOST('/items').respond(function(method, url, data) {
+            items.push(angular.fromJson(data));
+        });
+
+        $httpBackend.whenGET(/^\/templates\//).passThrough();
+    });
+
+Afterwards, bootstrap your app with this new module.
+
+## Unit Test
+
+The `ngMock` module providers support to inject and mock Angular services into unit tests.
+
+    angular.module('app', ['ngMock']);
+
+### `$httpBackend`
+
+Fake HTTP backend implementation suitable for unit testing applications that use the `$http` service.
