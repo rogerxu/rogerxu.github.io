@@ -15,13 +15,13 @@ title: Android Apps
 * [iDisplay](https://play.google.com/store/apps/details?id=com.idisplay.virtualscreen)
 * [Google Keep](https://play.google.com/store/apps/details?id=com.google.android.keep)
 * [Limitless Remote](https://play.google.com/store/apps/details?id=dh.ControlPad.main)
+* [Muzei Live Wallpaper](https://play.google.com/store/apps/details?id=net.nurik.roman.muzei)
 * [MX Player](https://play.google.com/store/apps/details?id=com.mxtech.videoplayer.ad)
 * [Offline Browser](https://play.google.com/store/apps/details?id=it.nikodroid.offline)
 * [Pocket](https://play.google.com/store/apps/details?id=com.ideashower.readitlater.pro)
 * [Quick System Info PRO](https://play.google.com/store/apps/details?id=org.uguess.android.sysinfo.pro)
 * [QuickPic](https://play.google.com/store/apps/details?id=com.alensw.PicFolder)
 * [Root Explorer](https://play.google.com/store/apps/details?id=com.speedsoftware.rootexplorer)
-* [Shadowsocks](https://play.google.com/store/apps/details?id=com.github.shadowsocks)
 * [Speed Test](https://play.google.com/store/apps/details?id=org.zwanoo.android.speedtest)
 * [Timely Alarm Clock](https://play.google.com/store/apps/details?id=ch.bitspin.timely)
 * [Unified Remote](https://play.google.com/store/apps/details?id=com.Relmtech.Remote)
@@ -40,10 +40,19 @@ title: Android Apps
 * [猎豹清理大师](https://play.google.com/store/apps/details?id=com.cleanmaster.mguard_cn)
 * [扇贝新闻](https://play.google.com/store/apps/details?id=com.shanbay.news)
 * [图解电影](https://play.google.com/store/apps/details?id=com.wzm.moviepic)
+* [涂书笔记](https://play.google.com/store/apps/details?id=com.baidu.notes)
 * [挖财](https://play.google.com/store/apps/details?id=com.wacai365)
 * [掌中英语](https://play.google.com/store/apps/details?id=com.zzenglish.client)
 * [知乎](https://play.google.com/store/apps/details?id=com.zhihu.android)
 * [知乎日报](https://play.google.com/store/apps/details?id=com.zhihu.daily.android)
+
+### Proxy
+
+* [寻路](https://play.google.com/store/apps/details?id=com.biganiseed.reindeer)
+* [Shadowsocks](https://play.google.com/store/apps/details?id=com.github.shadowsocks)
+* [fqrouter2](https://play.google.com/store/apps/details?id=fq.router2)
+* [Ladder](https://play.google.com/store/apps/details?id=com.biganiseed.ladder.trial)
+* [GAE Proxy](https://play.google.com/store/apps/details?id=org.gaeproxy)
 
 
 ### Markdown
@@ -55,12 +64,14 @@ title: Android Apps
 
 ### Development
 
-* [Git](https://play.google.com/store/apps/details?id=com.romanenco.gitt)
+* [SGit](https://play.google.com/store/apps/details?id=me.sheimi.sgit)
 * [GitHub](https://play.google.com/store/apps/details?id=com.github.mobile)
 * [JS Console for Android](https://play.google.com/store/apps/details?id=com.jgmcelwain.jsonsole)
 * [QPython](https://play.google.com/store/apps/details?id=com.hipipal.qpyplus)
 * [Terminal IDE](https://play.google.com/store/apps/details?id=com.spartacusrex.spartacuside)
 * [Vim Touch](https://play.google.com/store/apps/details?id=net.momodalo.app.vimtouch)
+* [JuiceSSH](https://play.google.com/store/apps/details?id=com.sonelli.juicessh)
+* [Server Auditor - SSH Terminal](https://play.google.com/store/apps/details?id=com.server.auditor.ssh.client)
 
 ### DLNA
 
