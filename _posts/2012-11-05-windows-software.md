@@ -8,7 +8,7 @@ title: Windows Software
 ## File Management
 
 * [Everything]()
-* [FreeCommander XE](http://www.freecommander.com/fc_beta_en.htm)
+* [FreeCommander](http://www.freecommander.com/)
 * [WinDirStat]()
 * [Disk Cleaner]()
 * [TeraCopy]()
@@ -22,13 +22,14 @@ title: Windows Software
 
 ### Hash
 
-* [CyoHash]()
+* [CyoHash](http://sourceforge.net/projects/cyohash/)
 * [Rapid CRC Unicode]()
 
 ## Proxy
 
 * [WallProxy]()
-* [GoAgent]()
+* [GoAgent](https://code.google.com/p/goagent/)
+* [ShadowSocks](http://shadowsocks.org/)
 * [HostX]()
 
 
@@ -46,11 +47,12 @@ title: Windows Software
 
 ## Programming
 
-* [Notepad++]()
+* [EverEdit](http://www.everedit.net/)
+* [Notepad++](http://notepad-plus-plus.org/)
 * [gVim]()
-* [Sublime Text 2](http://www.sublimetext.com/2)
+* [Sublime Text 3](http://www.sublimetext.com/3)
 * [Git Extensions](http://code.google.com/p/gitextensions/)
-* [Rapid Environment Editor]()
+* [Rapid Environment Editor](http://www.rapidee.com/)
 
 
 ## System
@@ -71,9 +73,12 @@ title: Windows Software
 
 ## TTS
 
+* [TTS Audio](http://www.dacidian.net/tts/)
+    * [Lily Chinese Female]()
+    * [VW Kate English Female]()
 * [TTS Switcher]()
 * [Balabolka]()
-* [VW (Kate)]()
+
 
 ## Font
 
@@ -106,7 +111,7 @@ title: Windows Software
 
 * [TimeMachine]()
 * [foobar2000]()
-* [Media Player Classic - Home Cinema]()
+* [Media Player Classic - Home Cinema](http://mpc-hc.org/)
 * [PotPlayer]()
 * [MediaInfo]()
 * [PicPick]()
