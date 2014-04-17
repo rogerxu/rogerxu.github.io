@@ -6,6 +6,7 @@ title: JavaScript Code Style Guide
 ## Resources
 
 * [Principles of Writing Consistent, Idiomatic JavaScript](https://github.com/rwldrn/idiomatic.js)
+* [JavaScript Style Guides And Beautifiers](http://addyosmani.com/blog/javascript-style-guides-and-beautifiers/)
 * [Front-end Code Standards & Best Practices](http://isobar-idev.github.io/code-standards/)
 * [Google JavaScript Style Guide](http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml)
 * [Your code sucks, let's fix it - PHP Master Series 2012](http://www.slideshare.net/rdohms/your-code-sucks-lets-fix-it-php-master-series-2012)
@@ -35,7 +36,7 @@ Alias long type names to improve readability
         var staticHelper = some.long.namespace.MyClass.staticHelper;
         staticHelper(new MyClass());
     }
- 
+
 #### Filenames
 
 Filenames should be all lowercase in order to avoid confusion on case-sensitive platforms.
