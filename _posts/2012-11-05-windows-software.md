@@ -7,85 +7,85 @@ title: Windows Software
 
 ## File Management
 
-* [Everything]()
-* [FreeCommander](http://www.freecommander.com/)
-* [WinDirStat]()
-* [Disk Cleaner]()
-* [TeraCopy]()
-* [Listary]()
+- [Everything]()
+- [FreeCommander](http://www.freecommander.com/)
+- [WinDirStat]()
+- [Disk Cleaner]()
+- [TeraCopy]()
+- [Listary]()
 
 ## DVD-ROM
 
-* [ImageBurn](http://www.imgburn.com/)
-* [WhereIsIt?]()
-* [Disclib](http://www.lyrasoftware.com/disclib/)
+- [ImageBurn](http://www.imgburn.com/)
+- [WhereIsIt?]()
+- [Disclib](http://www.lyrasoftware.com/disclib/)
 
 ### Hash
 
-* [CyoHash](http://sourceforge.net/projects/cyohash/)
-* [Rapid CRC Unicode]()
+- [CyoHash](http://sourceforge.net/projects/cyohash/)
+- [Rapid CRC Unicode]()
 
 ## Proxy
 
-* [WallProxy]()
-* [GoAgent](https://code.google.com/p/goagent/)
-* [ShadowSocks](http://shadowsocks.org/)
-* [HostX]()
+- [WallProxy]()
+- [GoAgent](https://code.google.com/p/goagent/)
+- [ShadowSocks](http://shadowsocks.org/)
+- [HostX]()
 
 
 ## Web Browser
 
-* [Chrome]()
-* [Firefox]()
-* [The World]()
+- [Chrome]()
+- [Firefox]()
+- [The World]()
 
 
 ## Reader
 
-* [PDF Reader]()
-* [FBReader]()
+- [PDF Reader]()
+- [FBReader]()
 
 ## Programming
 
-* [EverEdit](http://www.everedit.net/)
-* [Notepad++](http://notepad-plus-plus.org/)
-* [gVim]()
-* [Sublime Text 3](http://www.sublimetext.com/3)
-* [Git Extensions](http://code.google.com/p/gitextensions/)
-* [Rapid Environment Editor](http://www.rapidee.com/)
+- [EverEdit](http://www.everedit.net/)
+- [Notepad++](http://notepad-plus-plus.org/)
+- [gVim]()
+- [Sublime Text 3](http://www.sublimetext.com/3)
+- [Git Extensions](http://code.google.com/p/gitextensions/)
+- [Rapid Environment Editor](http://www.rapidee.com/)
 
 
 ## System
 
-* [LastActivityView](http://www.nirsoft.net/utils/computer_activity_view.html)
-* [Console2]()
-* [Rainmeter]()
-* [Ditto]()
+- [LastActivityView](http://www.nirsoft.net/utils/computer_activity_view.html)
+- [Console2]()
+- [Rainmeter]()
+- [Ditto]()
 
 ### Process Monitor
 
-* [Process Hacker]()
+- [Process Hacker]()
 
 ### Screen Monitor
 
-* [BlackTop]()
-* [F.lux](http://stereopsis.com/flux/)
+- [BlackTop]()
+- [F.lux](http://stereopsis.com/flux/)
 
 ## TTS
 
-* [TTS Audio](http://www.dacidian.net/tts/)
-    * [Lily Chinese Female]()
-    * [VW Kate English Female]()
-* [TTS Switcher]()
-* [Balabolka]()
+- [TTS Audio](http://www.dacidian.net/tts/)
+    - [Lily Chinese Female]()
+    - [VW Kate English Female]()
+- [TTS Switcher]()
+- [Balabolka]()
 
 
 ## Font
 
 ### Monospace Font
 
-* [Consolas]()
-* [Inconsolata]()
+- [Consolas]()
+- [Inconsolata]()
 
 ### Chinese Font
 
@@ -100,22 +100,23 @@ title: Windows Software
 
 ## Remote Control
 
-* [Limitless Remote]()
-* [Unifield Remote]()
-* [TeamViewer]()
-* [LogMeIn](https://logmein.com/)
-* [Splashtop]()
+- [Limitless Remote]()
+- [Unifield Remote]()
+- [TeamViewer]()
+- [LogMeIn](https://logmein.com/)
+- [Splashtop]()
 
 
 ## Media
 
-* [TimeMachine]()
-* [foobar2000]()
-* [Media Player Classic - Home Cinema](http://mpc-hc.org/)
-* [PotPlayer]()
-* [MediaInfo]()
-* [PicPick]()
-* [IrfanView]()
-* [MediaCoder]()
-* [MeGUI](http://sourceforge.net/projects/megui/)
+- [Aegisub](http://www.aegisub.org/)
+- [TimeMachine]()
+- [foobar2000]()
+- [Media Player Classic - Home Cinema](http://mpc-hc.org/)
+- [PotPlayer]()
+- [MediaInfo]()
+- [PicPick]()
+- [IrfanView]()
+- [MediaCoder]()
+- [MeGUI](http://sourceforge.net/projects/megui/)
 
