@@ -10,9 +10,11 @@ title: User Scripts
 
 ## User Scripts
 
+* [Better.Caoliu](http://userscripts.org/scripts/show/122991)
 * [Crack Url Wait Code Login for Chrome](http://userscripts.org/scripts/show/157621)
 * [doubanIMDb](http://userscripts.org/scripts/show/103552)
 * [Download YouTube Captions](http://userscripts.org/scripts/show/50003)
+* [Google search results url - w/o redirect](http://userscripts.org/scripts/show/120091)
 * [Only Show This User Posts Chinalist](http://userscripts.org/scripts/show/137995)
 * [OpenGG.Clean.Player(Bae](http://userscripts.org/scripts/show/162286)
 * [Straight Google](http://userscripts.org/scripts/show/121261)
