@@ -66,6 +66,10 @@ title: Windows Software
 
 - [Process Hacker]()
 
+### Iput Method
+
+- [必应输入法]()
+
 ### Screen Monitor
 
 - [BlackTop]()
