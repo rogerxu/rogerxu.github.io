@@ -5,46 +5,53 @@ title: Android Apps
 
 ## Apps
 
-* [Any.do](https://play.google.com/store/apps/details?id=com.anydo)
-* [CoolMarket](http://www.coolapk.com/apk/com.coolapk.market)
+* [360 WiFi快传](http://www.coolapk.com/apk/com.coolapk.market)
+* [酷市场](http://www.coolapk.com/apk/com.coolapk.market)
 * [Dropbox](https://play.google.com/store/apps/details?id=com.dropbox.android)
 * [ES File Explorer File Manager](https://play.google.com/store/apps/details?id=com.estrongs.android.pop)
 * [Evernote](https://play.google.com/store/apps/details?id=com.evernote)
 * [EZ Weather Forecast & Widget](https://play.google.com/store/apps/details?id=mobi.infolife.ezweather)
 * [Fuubo](https://play.google.com/store/apps/details?id=me.imid.fuubo)
-* [iDisplay](https://play.google.com/store/apps/details?id=com.idisplay.virtualscreen)
 * [Google Keep](https://play.google.com/store/apps/details?id=com.google.android.keep)
-* [Limitless Remote](https://play.google.com/store/apps/details?id=dh.ControlPad.main)
-* [Muzei Live Wallpaper](https://play.google.com/store/apps/details?id=net.nurik.roman.muzei)
+* [Headset Button]()
 * [MX Player](https://play.google.com/store/apps/details?id=com.mxtech.videoplayer.ad)
 * [Offline Browser](https://play.google.com/store/apps/details?id=it.nikodroid.offline)
+* [Onefootball]()
 * [Pocket](https://play.google.com/store/apps/details?id=com.ideashower.readitlater.pro)
 * [Quick System Info PRO](https://play.google.com/store/apps/details?id=org.uguess.android.sysinfo.pro)
 * [QuickPic](https://play.google.com/store/apps/details?id=com.alensw.PicFolder)
 * [Root Explorer](https://play.google.com/store/apps/details?id=com.speedsoftware.rootexplorer)
-* [Speed Test](https://play.google.com/store/apps/details?id=org.zwanoo.android.speedtest)
-* [Timely Alarm Clock](https://play.google.com/store/apps/details?id=ch.bitspin.timely)
-* [Unified Remote](https://play.google.com/store/apps/details?id=com.Relmtech.Remote)
-* [WiFi Master](https://play.google.com/store/apps/details?id=com.halo.wifikey.wifilocating)
-* [World Watch]()
+* [RSA SecurID](https://play.google.com/store/apps/details?id=com.speedsoftware.rootexplorer)
+* [Speedtest](https://play.google.com/store/apps/details?id=org.zwanoo.android.speedtest)
+* [Time Buddy]()
+* [WiFi万能钥匙](https://play.google.com/store/apps/details?id=com.halo.wifikey.wifilocating)
+* [World Time Buddy](https://play.google.com/store/apps/details?id=com.helloka.worldtimebuddy)
 * [ZArchiver](https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver)
 * [百度地图](https://play.google.com/store/apps/details?id=com.baidu.BaiduMap)
 * [布卡漫画](http://www.ibuka.cn/)
 * [多看阅读](https://play.google.com/store/apps/details?id=com.duokan.reader)
-* [惠惠购物锦囊](http://www.huihui.cn/apps/guide/m)
 * [惠惠折扣日报](https://play.google.com/store/apps/details?id=com.youdao.huihui.deals)
 * [金山电池医生](https://play.google.com/store/apps/details?id=com.ijinshan.kbatterydoctor)
 * [酷狗FM收音机](https://play.google.com/store/apps/details?id=com.kugou.fm)
+* [快牙]()
+* [护眼宝]()
 * [乐动力](https://play.google.com/store/apps/details?id=cn.ledongli.ldl)
 * [乐视电视助手](https://play.google.com/store/apps/details?id=com.letv.smartControl)
+* [荔枝电台]()
 * [猎豹清理大师](https://play.google.com/store/apps/details?id=com.cleanmaster.mguard_cn)
+* [绿色守护]()
 * [扇贝新闻](https://play.google.com/store/apps/details?id=com.shanbay.news)
 * [图解电影](https://play.google.com/store/apps/details?id=com.wzm.moviepic)
 * [涂书笔记](https://play.google.com/store/apps/details?id=com.baidu.notes)
 * [挖财](https://play.google.com/store/apps/details?id=com.wacai365)
+* [网易云音乐]()
+* [雪球]()
 * [掌中英语](https://play.google.com/store/apps/details?id=com.zzenglish.client)
 * [知乎](https://play.google.com/store/apps/details?id=com.zhihu.android)
 * [知乎日报](https://play.google.com/store/apps/details?id=com.zhihu.daily.android)
+* [自选股]()
+* [最美壁纸]()
+
 
 ### Proxy
 
@@ -54,6 +61,16 @@ title: Android Apps
 * [Ladder](https://play.google.com/store/apps/details?id=com.biganiseed.ladder.trial)
 * [GAE Proxy](https://play.google.com/store/apps/details?id=org.gaeproxy)
 
+### Remote Control
+
+* [Chrome Remote Control]()
+* [RD Client]()
+* [Unified Remote](https://play.google.com/store/apps/details?id=com.Relmtech.Remote)
+* [Limitless Remote](https://play.google.com/store/apps/details?id=dh.ControlPad.main)
+
+### GTD
+
+* [Any.do](https://play.google.com/store/apps/details?id=com.anydo)
 
 ### Markdown
 
@@ -64,6 +81,7 @@ title: Android Apps
 
 ### Development
 
+* [920 Text Editor]()
 * [SGit](https://play.google.com/store/apps/details?id=me.sheimi.sgit)
 * [GitHub](https://play.google.com/store/apps/details?id=com.github.mobile)
 * [JS Console for Android](https://play.google.com/store/apps/details?id=com.jgmcelwain.jsonsole)
@@ -77,6 +95,7 @@ title: Android Apps
 
 * [Skifta](https://play.google.com/store/apps/details?id=com.skifta.android.app)
 * [iMediaShare Personal](https://play.google.com/store/apps/details?id=com.bianor.amspersonal)
+* [iDisplay](https://play.google.com/store/apps/details?id=com.idisplay.virtualscreen)
 
 ### TTS
 
