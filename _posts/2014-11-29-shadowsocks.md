@@ -3,40 +3,97 @@ layout: post
 title: Shadowsocks
 ---
 
+* [Official Site](http://shadowsocks.org/)
+* [Wiki](https://github.com/shadowsocks/shadowsocks/wiki)
+
 ## Server
 
 ### Prepare
 
     $ su
+    $ yum clean all
     $ yum update
     $ yum grouplist
-    $ yum groupinfo 'Development Tools'
-    $ yum groupinstall "Development Tools"
+    $ yum groupinfo "Development tools"
+    $ yum groupinstall "Development tools"
 
 ### Python
 
-Install
+#### Install
 
     $ yum install python-setuptools supervisor
+    $ yum install m2crypto
     $ easy_install pip
     $ python --version
     $ pip install shadowsocks
 
-Configuration
+#### Upgrade
 
-Run Server
+Make sure the old packages are uninstalled.
 
-Stop Server
+    $ yum update
+    $ easy_install -U pip
+    $ pip list -o
+    $ pip install -U shadowsocks
+
+#### Configuration
+
+    $ mkdir shadowsocks
+    $ vim shadowsocks/config.json
+
+`config.json`
+
+```json
+{
+    "server": "0.0.0.0",
+    "server_port": 8388,            // server port
+    "local_address": "127.0.0.1",   // local address
+    "local_port": 1080,             // local port
+    "password": "s**",
+    "timeout": 300,                 // in seconds
+    "method": "aes-256-cfb",            // encryption method, "rc4-md5", "aes-256-cfb" etc. Default is "table"
+    "fast_open": false,             // If both of your server and client are deployed on Linux 3.7+, you can turn on fast_open for lower latency.
+    "workers": 2
+```
+To run in the foreground
+
+    $ ssserver -c /etc/shadowsocks.json
+
+To run in the background
+
+    $ ssserver -c /etc/shadowsocks.json -d start
+    $ ssserver -c /etc/shadowsocks.json -d stop
+
+#### Run Server
+
+To run in the foreground
+
+    $ ssserver -p 443 -k password -m aes-256-cfb
+
+To run in the background
+
+    $ sudo ssserver -p 443 -k password -m aes-256-cfb --user nobody --workers 2 -d start
+
+To check the log
+
+    $ sudo less /var/log/shadowsocks.log
+
+### Stop Server
+
+    $ sudo ssserver -d stop
+
 
 ### Node.js
 
-Install
+Deprecated. The memory performance is not good.
+
+#### Install
 
     $ yum install nodejs npm
     $ npm --version
     $ npm install -g shadowsocks
 
-Configuration
+#### Configuration
 
     $ mkdir shadowsocks
     $ vim shadowsocks/config.json
@@ -50,23 +107,51 @@ Configuration
     "local_port": 1080,     // local port
     "password": "s**",
     "timeout": 600,         // in seconds
-    "method": "aes-256-cfb" // envryption method, "bf-cfb", "aes-256-cfb", "des-cfb", "rc4", etc. Default is "table"
+    "method": "aes-256-cfb" // encryption method, "bf-cfb", "aes-256-cfb", "des-cfb", "rc4", etc. Default is "table"
 ```
 
-Run Server
+#### Run Server
 
     $ cd shadowsocks
     $ nohup ssserver > log &
     $ exit
 
-Stop Server
+#### Stop Server
 
     $ ps -l
     $ kill -15 ${PID}
 
+
 ## Client
 
 ### Windows
+
+shadowsocks-csharp
+
+Windows 8 or above: `shadowsocks-win-dotnet4.0-2.3.zip`
+Windows 7 or below: `shadowsocks-win-2.3.zip`
+
+`gui-config.json`
+
+```json
+{
+  "configs" : [
+    {
+      "server" : "45.62.99.104",
+      "server_port" : 443,
+      "password" : "savageboy",
+      "method" : "aes-256-cfb",
+      "remarks" : "savageboy"
+    }
+  ],
+  "index" : 0,
+  "global" : false,
+  "enabled" : true,
+  "shareOverLan" : false,
+  "isDefault" : false,
+  "localPort" : 1080
+}
+```
 
 ### Android
 
