@@ -21,11 +21,23 @@ title: Shadowsocks
 
 #### Install
 
-    $ yum install python-setuptools supervisor
-    $ yum install m2crypto
+Install python-pip
+
+    $ yum install python-setuptools
     $ easy_install pip
-    $ python --version
-    $ pip install shadowsocks
+
+Install M2Crypto for encryption methods
+
+    $ yum install swig
+    $ yum install m2crypto
+    $ yum install supervisor
+
+Install gevent for better performance
+
+    $ yum install python-devel
+    $ yum install libevent
+    $ easy_install greenlet
+    $ pip install gevent
 
 #### Upgrade
 
@@ -51,18 +63,18 @@ Make sure the old packages are uninstalled.
     "local_port": 1080,             // local port
     "password": "s**",
     "timeout": 300,                 // in seconds
-    "method": "aes-256-cfb",            // encryption method, "rc4-md5", "aes-256-cfb" etc. Default is "table"
+    "method": "aes-256-cfb",        // encryption method, "rc4-md5", "aes-256-cfb" etc. Default is "table"
     "fast_open": false,             // If both of your server and client are deployed on Linux 3.7+, you can turn on fast_open for lower latency.
     "workers": 2
 ```
 To run in the foreground
 
-    $ ssserver -c /etc/shadowsocks.json
+    $ ssserver -c /etc/shadowsocks/config.json
 
 To run in the background
 
-    $ ssserver -c /etc/shadowsocks.json -d start
-    $ ssserver -c /etc/shadowsocks.json -d stop
+    $ ssserver -c /etc/shadowsocks/config.json -d start
+    $ ssserver -c /etc/shadowsocks/config.json -d stop
 
 #### Run Server
 
@@ -98,18 +110,6 @@ Deprecated. The memory performance is not good.
     $ mkdir shadowsocks
     $ vim shadowsocks/config.json
 
-`config.json`
-
-```json
-{
-    "server": "0.0.0.0",
-    "server_port": 8388,    // server port
-    "local_port": 1080,     // local port
-    "password": "s**",
-    "timeout": 600,         // in seconds
-    "method": "aes-256-cfb" // encryption method, "bf-cfb", "aes-256-cfb", "des-cfb", "rc4", etc. Default is "table"
-```
-
 #### Run Server
 
     $ cd shadowsocks
@@ -137,11 +137,11 @@ Windows 7 or below: `shadowsocks-win-2.3.zip`
 {
   "configs" : [
     {
-      "server" : "45.62.99.104",
+      "server" : "45.62.103.223",
       "server_port" : 443,
       "password" : "savageboy",
       "method" : "aes-256-cfb",
-      "remarks" : "savageboy"
+      "remarks" : "Micro-64"
     }
   ],
   "index" : 0,
