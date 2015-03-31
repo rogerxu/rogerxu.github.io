@@ -15,16 +15,30 @@ title: Sublime Text
 ```json
 {
     "color_scheme": "Packages/User/SublimeLinter/Monokai Bright (SL).tmTheme",
+    "default_encoding": "UTF-8",
     "default_line_ending": "unix",
+    "draw_indent_guides": true,
+    "draw_white_space": "all",
     "ensure_newline_at_eof_on_save": true,
     "font_size": 12,
+    "highlight_line": false,
+    "highlight_modified_tabs": true,
+    "hot_exit": true,
     "ignored_packages":
     [
         "Vintage",
         "Markdown"
     ],
+    "preview_on_click": true,
+    "shift_tab_unindent": true,
+    "show_encoding": true,
+    "show_line_endings": true,
     "spell_check": true,
-    "trim_trailing_white_space_on_save": true
+    "tab_size": 4,
+    "translate_tabs_to_spaces": false,
+    "trim_automatic_white_space": true,
+    "trim_trailing_white_space_on_save": true,
+    "use_tab_stops": true
 }
 ```
 
@@ -84,6 +98,13 @@ Line
 
 [Package Control - Installation](https://packagecontrol.io/installation)
 
+### Emmet
+
 ### SublimeLinter
 
 ### Markdown Editing
+
+### AdvancedNewFile
+
+### Side Bar
+
