@@ -12,6 +12,7 @@ title: Sublime Text
 ## Configuration
 
 `SublimeText/Data/Packages/User/Preferences.sublime-settings`
+
 ```json
 {
     "color_scheme": "Packages/User/SublimeLinter/Monokai Bright (SL).tmTheme",
@@ -79,6 +80,7 @@ Line
 ## Project
 
 `abc.sublime-project`
+
 ```json
 {
     "folders":
