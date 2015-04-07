@@ -11,7 +11,7 @@ title: Sublime Text
 
 ## Configuration
 
-`SublimeText/Data/Packages/User/Preferences.sublime-settings`
+`/Packages/User/Preferences.sublime-settings`
 
 ```json
 {
@@ -104,9 +104,44 @@ Line
 
 ### SublimeLinter
 
-### Markdown Editing
+### MarkdownEditing
 
 ### AdvancedNewFile
 
-### Side Bar
+### SideBarEnhancements
+
+### SyncedSideBar
+
+### Generic Config
+
+### BracketHighlighter
+
+### Find++
+
+`/Packages/User/Default.sublime-keymap`
+
+```json
+[
+    { "keys": ["f5"], "command": "fpp_find_in_current_file" },
+    { "keys": ["f8"], "command": "fpp_find_in_current_folder" },
+    { "keys": ["f10"], "command": "show_panel", "args": {"panel": "find_in_files", "where": "<project>"} },
+    { "keys": ["ctrl+alt+f5"], "command": "fpp_show_results_panel" }
+]
+```
+
+### SublimeCodeIntel
+
+### SublimeBookmark
+
+### Alignment
+
+### DocBlockr
+
+### JsFormat
+
+### Random Everything
+
+
+
+
 
