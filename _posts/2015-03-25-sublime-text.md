@@ -47,20 +47,42 @@ title: Sublime Text
 
 ### General
 
-* `Ctrl+Shift+P` - Open Command Palette.
-* ``Ctrl+` `` - Open Console.
+* `Ctrl+Shift+P` - Open Command Palette
+* ``Ctrl+` `` - Open Console
+* `Ctrl+KB` - Toggle side bar
 
 ### Edit
 
-Line
+Copy Paste
 
-* `Ctrl+Shift+K` - Delete Line.
-* `Ctrl+Shift+D` - Duplicate Line.
+* `Ctrl+C` - Copy current line
+* `Ctrl+X` - Cut current line
+* `Ctrl+Shift+V` - Paste and indent correctly
+
+Insert
+
+* `Ctrl+Enter` - Insert line after
+* `Ctrl+Shift+Enter` - Insert line before
+* `Ctrl+Shift+D` - Duplicate line.
+
+Delete
+
+* `Ctrl+Shift+K` - Delete line
+* `Ctrl+KK` - Delete from cursor to end of line
+* `Ctrl+K+Backspace` - Delete from cursor to start of line
+
 
 ### Selection
 
 * `Ctrl+D` - Expand Selection to Word
 * `Ctrl+L` - Expand Selection to Line
+* `Ctrl+M` - Expand Selection to matching bracket.
+* `Ctrl+Shift+M` - Select all contents of the current brackets.
+
+### Conversion
+
+* `Ctrl+KU` - Upper case
+* `Ctrl+KL` - Lower case
 
 ### Find
 
@@ -70,12 +92,18 @@ Line
 
 ### Bookmark
 
-* `Ctrl+F2` - Toggle Bookmarks
-* `Ctrl+Shift+F2` - Clear Bookmarks
+* `Ctrl+F2` - Toggle bookmarks
+* `F2` - Next bookmark
+* `Shift+F2` - Previous bookmark
+* `Ctrl+Shift+F2` - Clear bookmarks
 
 ### Navigation
 
-* `Ctrl+P` - Goto Anything
+* `Ctrl+P` - Open file by name in the project
+* `Ctrl+R` - Goto symbol in the file. (`Ctrl+P` with `@`)
+* `Ctrl+;` - Goto word in current file. (`Ctrl+P` with `#`)
+* `Ctrl+G` - Goto line in current file. (`Ctrl+P` with `:`)
+
 
 ## Project
 
