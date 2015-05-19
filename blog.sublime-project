@@ -3,6 +3,9 @@
 	[
 		{
 			"path": "_posts"
+		},
+		{
+			"path": "_drafts"
 		}
 	]
 }
