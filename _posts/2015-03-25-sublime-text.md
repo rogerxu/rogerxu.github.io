@@ -78,6 +78,7 @@ Delete
 * `Ctrl+L` - Expand Selection to Line
 * `Ctrl+M` - Expand Selection to matching bracket.
 * `Ctrl+Shift+M` - Select all contents of the current brackets.
+* `Right Mouse Button + Shift` or `Middle Mouse Button` - Column selection.
 
 ### Conversion
 
