@@ -15,10 +15,9 @@ Documentation: <http://phantomjs.org/>
 
 ### Windows
 
-Download `phantomjs-1.9.2-windows.zip` (6.8 MB) and extract (unzip) the content.
+Download `phantomjs-2.1.1-windows.zip` and extract the content.
 
 The executable `phantomjs.exe` is ready to use.
-
 
 ### Mac OS X
 
@@ -26,41 +25,44 @@ The executable `phantomjs.exe` is ready to use.
 
 ### Linux
 
-    $ tar -xvjf phantomjs-1.9.2-linux-x86_64.tar.bz2
-    $ sudo ln -s /usr/local/share/phantomjs-1.9.2-linux-x86_64/ /usr/local/share/phantomjs
-    $ sudo ln -s /usr/local/share/phantomjs/bin/phantomjs /usr/local/bin/phantomjs
-    $ whereis phantomjs
-    $ phantomjs --version
-
-
-### Source Code
-
-    TODO
-
+```sh
+$ wget -e https_proxy=http://localhost:8123/ https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.1.1-linux-x86_64.tar.bz2
+$ tar -xvjf phantomjs-2.1.1-linux-x86_64.tar.bz2
+$ sudo cp -r phantomjs-2.1.1-linux-x86_64 /usr/local/share
+$ sudo ln -s /usr/local/share/phantomjs-2.1.1-linux-x86_64/ /usr/local/share/phantomjs
+$ sudo ln -s /usr/local/share/phantomjs/bin/phantomjs /usr/local/bin/phantomjs
+$ whereis phantomjs
+$ phantomjs --version
+```
 
 ## Usage
 
-    $ phantomjs hello.js
-
-## Features
+```sh
+$ phantomjs hello.js
+```
 
 ### Headless Testing
 
-    $ phantomjs runner.js http://localhost:8080/web/test.qunit.html
+```sh
+$ phantomjs runner.js http://localhost:8080/web/test.qunit.html
+```
 
-
-#### Continuous Integration
+### Continuous Integration
 
 Integration with Maven and Jenkins
 
 1. Use `jetty-maven-plugin` to start Jetty server.
-2. Use `exec-maven-plugin` to execute `phantomjs` command to run qunit tests and genereate JUnit report.
+2. Use `exec-maven-plugin` to execute `phantomjs` command to run QUnit tests and generate JUnit report.
 3. Use `maven-failsafe-plugin` to collect the test results.
 
+```sh
+$ mvn clean integration-test -P test.build
+```
+
 ```xml
-<!-- Profile for JS Test Runner -->
+<!-- Profile for Test Runner -->
 <profile>
-    <id>test-js</id>
+    <id>test.build</id>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -160,6 +162,6 @@ Integration with Maven and Jenkins
 
 ### Screen Capture
 
-    page.render();
-
-
+```javascript
+page.render();
+```
