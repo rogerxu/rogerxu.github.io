@@ -1,11 +1,1 @@
-permalink: /:year/:month/:day/:title
-encoding: utf-8
-markdown: kramdown
-kramdown:
-  input: GFM
-
-title: Welcome
-description: Roger Xu's Blog
-google_analytics: 
-show_downloads: true
 theme: jekyll-theme-dinky
